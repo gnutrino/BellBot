@@ -1,0 +1,15 @@
+{
+  "name": "bellbot",
+  "version": "1.0.0",
+  "description": "A bell ringing bot for ringingroom.co.uk",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Ed Askew <edward.askew@foonet.me.uk>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
