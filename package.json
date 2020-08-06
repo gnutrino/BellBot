@@ -4,12 +4,23 @@
   "description": "A bell ringing bot for ringingroom.co.uk",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
   },
   "author": "Ed Askew <edward.askew@foonet.me.uk>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "redux": "^4.0.5",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.2",
+    "socket.io-client": "^2.3.0"
+  },
   "devDependencies": {
+    "@types/immutable": "^3.8.7",
+    "@types/node": "^14.0.27",
+    "@types/redux": "^3.6.0",
+    "@types/socket.io-client": "^1.4.33",
     "typescript": "^3.9.7"
   }
 }
